@@ -1,0 +1,15 @@
+.empty-course-list {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.empty-course-listBody {
+  text-align: center;
+}
+
+.empty-course-list Button {
+  width: 235px;
+}

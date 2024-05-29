@@ -1,0 +1,9 @@
+button {
+  background-color: #007298;
+  width: 140px;
+  height: 50px;
+  border-radius: 5px;
+  outline: none;
+  color: white;
+  text-transform: uppercase;
+}

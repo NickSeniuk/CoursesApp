@@ -1,0 +1,16 @@
+.searchCtn {
+  width: 100%;
+  max-width: 560px;
+}
+
+.searchBody {
+  display: flex;
+  justify-content: space-between;
+}
+
+.searchBody Input {
+  margin: 0;
+  padding: 0;
+  width: 400px;
+  height: 47px;
+}

@@ -1,0 +1,39 @@
+.course-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.course-card Button {
+  width: 180px;
+  height: 50px;
+}
+
+.course-card-body {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: auto auto;
+  grid-template-areas:
+    "title title"
+    "description another";
+  width: 100%;
+  max-width: 1125px;
+  border-left: 7px solid #333e48;
+  border-radius: 10px;
+}
+
+.title {
+  grid-area: "title";
+  order: 1;
+}
+
+.description {
+  grid-area: "description";
+  order: 3;
+}
+
+.another {
+  grid-area: "another";
+  order: 2;
+}

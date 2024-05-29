@@ -1,0 +1,11 @@
+.searchBlock {
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1125px;
+  justify-content: space-between;
+}
+
+.searchBlock Button {
+  max-width: 185px;
+}
